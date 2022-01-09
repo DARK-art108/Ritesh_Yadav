@@ -29,9 +29,20 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "I am primarily interested in Natural Language Processing, Computer Vision, and DevOps. My key skills are Text Generation, Prompt Generation, Semantic Similarity ,Object Detection, Amazon Web Services.I am also intrested in building end to end operation pipelines for productionizing of AI Models.I have also used various DevOps tools like Terraform,Kubernetes, Docker, Jenkins, Tensorflow Extended, Kubeflow, Apache Kafka and also have a experience in various databases like MongoDB, Postgres, MySQL, Redis, TimeScaleDB , Firebase, etc. . I advocate for highly readable and self-contained code. Python is what I primarily use for programming. I am proficient in TensorFlow and a beginner in PyTorch. I usually train models on Google Colab Notebook and on my local workstation(Acer Predator-RTX 3060).Apart from this I also love to participate in various Kaggle Competitionsand hackathons. . I am currently working as a Junior Data Scientist at Ineuron.ai where I am working on building a Natural Language Processing model and deploying them to Cloud Platform like AWS, GCP, Azure. . I have contributed to various F/OSS projects. In particular, I have made contributions to Porter, Meshery, Thanos-io, and Tensorflow. Off the work, I like writing technical articles, working on applied Machine Learning ideas,Deploying and Scaling ML Models and giving talks at developer meetups and conferences. . | | | | .",
+          "content": "I am primarily interested in Natural Language Processing, Computer Vision, and DevOps. My key skills are Text Generation, Prompt Generation, Semantic Similarity ,Object Detection, Amazon Web Services.I am also intrested in building end to end operation pipelines for productionizing of AI Models.I have also used various DevOps tools like Terraform,Kubernetes, Docker, Jenkins, Tensorflow Extended, Kubeflow, Apache Kafka and also have a experience in various databases like MongoDB, Postgres, MySQL, Redis, TimeScaleDB , Firebase, etc. . I advocate for highly readable and self-contained code. Python is what I primarily use for programming. I am proficient in TensorFlow and a beginner in PyTorch. I usually train models on Google Colab Notebook and on my local workstation(Acer Predator-RTX 3060). Apart from this I also love to participate in various Kaggle Competitions and hackathons. . I am currently working as a Junior Data Scientist at Ineuron.ai where I am working on building a Natural Language Processing model and deploying them to Cloud Platform like AWS, GCP, Azure. . I have contributed to various F/OSS projects. In particular, I have made contributions to Porter, Meshery, Thanos-io, and Tensorflow. Off the work, I like writing technical articles, working on applied Machine Learning ideas,Deploying and Scaling ML Models and giving talks at developer meetups and conferences. . | | | | . Timeline: . Junior Data Scientist, Ineuron.ai (June 2021 - Present) | DevOps Engineer, The Machine Learning Company (September 2021 - Present) | .",
           "url": "https://dark-art108.github.io/Ritesh_Yadav/about/",
           "relUrl": "/about/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page2": {
+          "title": "Education",
+          "content": "(The formal ones may be) . B.Tech in CSE from Jaypee University of Engineering and Technology, Guna (2019 - 23) | .",
+          "url": "https://dark-art108.github.io/Ritesh_Yadav/education/",
+          "relUrl": "/education/",
           "date": ""
       }
       
@@ -50,6 +61,14 @@
   
 
   
+      ,"page8": {
+          "title": "Talks/Seminars/Workshops",
+          "content": "I love to attend developer meetups, conferences, workshops and learn from them as much as I can. I sometimes talk on a range of topics that I love the most. All the slides of my talks/sessions can be found below. . Given by me: . Given a Talk on Github, VCS, software Development Policies and Practices at Jaypee University of Engineering and Technology, Guna, in December 2021 | Given a Talk at Orientation of GDSC, Guna Chapter (Google Developer Student Club) on 21st November 2021 | Given a Talk Automating Infrastructure Provisioning using Terraform at DevOps India Conference 2021 | Given a Talk Docker in MLOPS, at Docker Hindi All Hands | Given a Talk on Getting Started with DevOps at Chennai Institute of Technology (CIT) in 2021 | Given a Talk on Productionizing Machine Learning Models at The Machine Learning Company in 2021 | .",
+          "url": "https://dark-art108.github.io/Ritesh_Yadav/talksseminarsworkshops/",
+          "relUrl": "/talksseminarsworkshops/",
+          "date": ""
+      }
+      
   
 
   
@@ -59,7 +78,10 @@
   
 
   
-      ,"page10": {
+  
+
+  
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://dark-art108.github.io/Ritesh_Yadav/robots.txt",

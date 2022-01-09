@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Introduction | Ritesh Yadav</title>
+<title>Text Augumentation using nlpaug | Ritesh Yadav</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Introduction" />
+<meta property="og:title" content="Text Augumentation using nlpaug" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A Simple Portfolio Site of Mine Built with some Madness" />
 <meta property="og:description" content="A Simple Portfolio Site of Mine Built with some Madness" />
@@ -16,9 +16,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-01-08T00:00:00-06:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Introduction" />
+<meta property="twitter:title" content="Text Augumentation using nlpaug" />
 <script type="application/ld+json">
-{"headline":"Introduction","dateModified":"2022-01-08T00:00:00-06:00","url":"https://dark-art108.github.io/Ritesh_Yadav/2022/01/08/Text-Augumentation-using-nlpaug.html","datePublished":"2022-01-08T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://dark-art108.github.io/Ritesh_Yadav/2022/01/08/Text-Augumentation-using-nlpaug.html"},"description":"A Simple Portfolio Site of Mine Built with some Madness","@context":"https://schema.org"}</script>
+{"headline":"Text Augumentation using nlpaug","dateModified":"2022-01-08T00:00:00-06:00","url":"https://dark-art108.github.io/Ritesh_Yadav/2022/01/08/Text-Augumentation-using-nlpaug.html","datePublished":"2022-01-08T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://dark-art108.github.io/Ritesh_Yadav/2022/01/08/Text-Augumentation-using-nlpaug.html"},"description":"A Simple Portfolio Site of Mine Built with some Madness","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Ritesh_Yadav/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://dark-art108.github.io/Ritesh_Yadav/feed.xml" title="Ritesh Yadav" /><link rel="shortcut icon" type="image/x-icon" href="/Ritesh_Yadav/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -73,13 +73,13 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Introduction</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-01-08T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Text Augumentation using nlpaug</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-01-08T00:00:00-06:00" itemprop="datePublished">
         Jan 8, 2022
       </time>
        • <span class="read-time" title="Estimated read time">
     
     
-      30 min read
+      31 min read
     
 </span></p>
 
@@ -125,6 +125,17 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction"> </a></h2><p>More data can help train models to be more general, with less overfitting. One convenient way to generate additional data is simply to transform the given data into something slightly different, such that it still represents the assigned labels. As well as helping during training, augmentation can also be used when running inference (Test Time Augmentation or TTA).</p>
+<p>For an image based challenge, flips, rotations, etc. can be used to generate a new image that still presents the same class of object as the original. But how do we do this for a NLP challenge?</p>
+<p>There are a wide variety of approaches, from character and word substitutions, all the way to translating the text from the source lanaguage to another and then back to get a setence with (hopefully) the same meaning, but a different structure.</p>
+<p>For more info, vad13irt has already posted a great survey here: <a href="https://www.kaggle.com/c/feedback-prize-2021/discussion/295277">https://www.kaggle.com/c/feedback-prize-2021/discussion/295277</a></p>
+<p>For this notebook, I want to focus on what the application of some of these methods actually looks like for the feedback-prize-2021 dataset. In particular, I'll be looking at methods that can be used while preserving the discourse_start and discourse_end annotations given in train.csv.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="The-nlpaug-Package">The nlpaug Package<a class="anchor-link" href="#The-nlpaug-Package"> </a></h1><p>I have chosen the nlpaug package, as it seems to have all I could want to experiement with. I could just have used 'pip install nlpaug', but I've installed it from a dataset to allow this notebook to run with internet turned off.</p>

@@ -127,30 +127,6 @@ window.onload = wrap_img;
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<blockquote><p>nlpaug is a library for text augmentation. It is based on the paper <a href="https://arxiv.org/abs/1810.04805">Text Augmentation</a>.</p>
-</blockquote>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>toc:true</li>
-<li>branch: master</li>
-<li>badges: true</li>
-<li>hide_binder_badge: true</li>
-<li>image: images/nlpaug.png</li>
-<li>comments: true</li>
-<li>author: Ritesh Yadav</li>
-<li>categories: [NLP, Augumentation]</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction"> </a></h2><p>More data can help train models to be more general, with less overfitting. One convenient way to generate additional data is simply to transform the given data into something slightly different, such that it still represents the assigned labels. As well as helping during training, augmentation can also be used when running inference (Test Time Augmentation or TTA).</p>
 <p>For an image based challenge, flips, rotations, etc. can be used to generate a new image that still presents the same class of object as the original. But how do we do this for a NLP challenge?</p>
 <p>There are a wide variety of approaches, from character and word substitutions, all the way to translating the text from the source lanaguage to another and then back to get a setence with (hopefully) the same meaning, but a different structure.</p>

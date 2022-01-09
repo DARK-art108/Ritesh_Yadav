@@ -5,7 +5,7 @@ permalink: /about/
 ---
 I am primarily interested in Natural Language Processing, Computer Vision, and DevOps. My key skills are Text Generation, Prompt Generation, Semantic Similarity ,Object Detection, Amazon Web Services.I am also intrested in building end to end operation pipelines for productionizing of AI Models.I have also used various DevOps tools like Terraform,Kubernetes, Docker, Jenkins, Tensorflow Extended, Kubeflow, Apache Kafka and also have a experience in various databases like MongoDB, Postgres, MySQL, Redis, TimeScaleDB , Firebase, etc.
 
-I advocate for highly readable and self-contained code. Python is what I primarily use for programming. I am proficient in TensorFlow and a beginner in PyTorch. I usually train models on Google Colab Notebook and on my local workstation(Acer Predator-RTX 3060).Apart from this I also love to participate in various <a href="https://www.kaggle.com/ritesh2000"><font color="#A020F0">Kaggle Competitions</font></a>and hackathons.
+I advocate for highly readable and self-contained code. Python is what I primarily use for programming. I am proficient in TensorFlow and a beginner in PyTorch. I usually train models on Google Colab Notebook and on my local workstation(Acer Predator-RTX 3060). Apart from this I also love to participate in various <a href="https://www.kaggle.com/ritesh2000"><font color="#A020F0">Kaggle Competitions </font></a>and hackathons.
 
 I am currently working as a Junior Data Scientist at [Ineuron.ai](https://ineuron.ai/) where I am working on building a Natural Language Processing model and deploying them to Cloud Platform like AWS, GCP, Azure.
 
@@ -20,16 +20,8 @@ I have contributed to various F/OSS projects. In particular, I have made contrib
   </tr>
 </table>
 
-<!-- ## Timeline:
+## Timeline:
 
-- Machine Learning Engineer, Carted (June 2021 - Present)
-- Deep Learning Associate, PyImageSearch (June 2019 - June 2021)
-- Data Science Instructor, DataCamp (August 2018 - June 2019) (on contract)
-- Software Engineer, TCS Research and Innovation (January 2018 - August 2018)
-- Software Engineer, Tata Consultancy Services Limited (July 2017 - January 2018)
-- Intern, CareerIn (Dec, 2016 - Feb, 2017) 
-
-## Badges I proudly endorse:
-
-![]({{site.baseurl}}/images/badges.png) -->
+- Junior Data Scientist, [Ineuron.ai](https://ineuron.ai/) (June 2021 - Present)
+- DevOps Engineer, The Machine Learning Company (September 2021 - Present)
 

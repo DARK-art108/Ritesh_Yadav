@@ -39,6 +39,17 @@
 
   
       ,"page2": {
+          "title": "Authoring",
+          "content": "",
+          "url": "https://dark-art108.github.io/Ritesh_Yadav/authoring/",
+          "relUrl": "/authoring/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page3": {
           "title": "Education",
           "content": "(The formal ones may be) . B.Tech in CSE from Jaypee University of Engineering and Technology, Guna (2019 - 23) | .",
           "url": "https://dark-art108.github.io/Ritesh_Yadav/education/",
@@ -51,19 +62,52 @@
   
 
   
+      ,"page5": {
+          "title": "Interviews",
+          "content": "",
+          "url": "https://dark-art108.github.io/Ritesh_Yadav/interviews/",
+          "relUrl": "/interviews/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page6": {
+          "title": "Interviews",
+          "content": "",
+          "url": "https://dark-art108.github.io/Ritesh_Yadav/interviews/",
+          "relUrl": "/interviews/",
+          "date": ""
+      }
+      
   
 
   
   
 
   
+  
 
   
-      ,"page7": {
+
+  
+      ,"page10": {
           "title": "Talks/Seminars/Workshops",
           "content": "I love to attend developer meetups, conferences, workshops and learn from them as much as I can. I sometimes talk on a range of topics that I love the most. All the slides of my talks/sessions can be found below. . Given by me: . Given a Talk on Github, VCS, software Development Policies and Practices at Jaypee University of Engineering and Technology, Guna, in December 2021 | Given a Talk at Orientation of GDSC, Guna Chapter (Google Developer Student Club) on 21st November 2021 | Given a Talk Automating Infrastructure Provisioning using Terraform at DevOps India Conference 2021 | Given a Talk Docker in MLOPS, at Docker Hindi All Hands | Given a Talk on Getting Started with DevOps at Chennai Institute of Technology (CIT) in 2021 | Given a Talk on Productionizing Machine Learning Models at The Machine Learning Company in 2021 | .",
           "url": "https://dark-art108.github.io/Ritesh_Yadav/talksseminarsworkshops/",
           "relUrl": "/talksseminarsworkshops/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page11": {
+          "title": "XYZ",
+          "content": "n this page, I have listed some things that I do/used to do in the pursuit of “happyness”. .",
+          "url": "https://dark-art108.github.io/Ritesh_Yadav/xyz/",
+          "relUrl": "/xyz/",
           "date": ""
       }
       
@@ -79,7 +123,7 @@
   
 
   
-      ,"page11": {
+      ,"page15": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://dark-art108.github.io/Ritesh_Yadav/robots.txt",

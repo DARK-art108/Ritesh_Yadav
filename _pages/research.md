@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Interviews
-permalink: /interviews/
+title: Research
+permalink: /research/
 ---

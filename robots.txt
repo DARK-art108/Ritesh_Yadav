@@ -1,1 +1,1 @@
-Sitemap: http://ritesh.ninja/sitemap.xml
+Sitemap: https://dark-art108.github.io/Ritesh_Yadav/sitemap.xml
